@@ -1,0 +1,31 @@
+PS C:\Users\takat> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\takat
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026/04/06     15:17                git_challenge
+
+
+PS C:\Users\takat> cd git_challenge
+PS C:\Users\takat\git_challenge> git init
+Initialized empty Git repository in C:/Users/takat/git_challenge/.git/
+PS C:\Users\takat\git_challenge> echo "Hello, world!" > hello_world.txt
+PS C:\Users\takat\git_challenge> git add hello_world.txt
+PS C:\Users\takat\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) 776ed3d] 1回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\takat\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\takat\git_challenge> git add hello_world.txt
+PS C:\Users\takat\git_challenge> git commit -m "2回目のコミット"
+[main f724f06] 2回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\takat\git_challenge> git log --oneline
+f724f06 (HEAD -> main) 2回目のコミット
+776ed3d 1回目のコミット
+PS C:\Users\takat\git_challenge> 
